@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+    list-style: none;
+    padding: 0;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    padding-inline: min(4rem, 4vw);
+    padding-block: 2rem;
+}
+
+
+.navbar {
+    display: flex;
+}
+
+nav>.nav {
+    margin-right: auto;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 2rem;
+    font-size: clamp(1rem, .8vw, 14px);
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: clamp(2.5rem, 2.3vw, 23px);
+    letter-spacing: clamp(.7rem, 0.2vw, 20px);
+    margin-block: 6rem;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero-article__mob {
+    display: none;
+}
+
+.hero-article__desk p{ 
+    width: 58%;
+    font-size: clamp(18px, 3.2vw, 3.5rem);
+    margin-block-start: 0;
+    margin-top: 0 !important;
+    margin-inline: auto;
+    text-align: left;
+    font-weight: 300;
+    margin-block: 2rem;
+}
+
+
+section:has([class="basic-skills"]) {
+    margin-block: 5rem;
+}
+
+section:has([class="basic-skills"]) h4{
+    width: 50%;
+}
+
+.basic-skills {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.skill-tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    border: solid 1px gray;
+    border-radius: 11px;
+    padding: 1rem;
+    box-shadow: -5px 13px 23px -3px rgba(0, 0, 0, 0.48);
+    -webkit-box-shadow: -5px 13px 23px -3px rgba(0, 0, 0, 0.48);
+     -moz-box-shadow: -5px 13px 23px -3px rgba(0, 0, 0, 0.48);
+}
+
+/* .projects div{
+    max-height: 36rem;
+} */
+
+.project-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.project-images img{
+    max-width: 100%;
+    transition: all ease-in .2s;
+    border-radius: 2%;
+}
+
+.project-images img:hover{
+    scale: 1.1;
+    box-shadow: -5px 13px 23px -3px rgba(0, 0, 0, 0.48);
+    -webkit-box-shadow: -5px 13px 23px -3px rgba(0, 0, 0, 0.48);
+     -moz-box-shadow: -5px 13px 23px -3px rgba(0, 0, 0, 0.48);
+}
+
+.project1{
+    width: 22rem;
+    height: 30rem;
+}
