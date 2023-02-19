@@ -35,10 +35,19 @@ ol[role="list"] {
 body {
     font-family: 'Josefin Sans', sans-serif;
     text-rendering: optimizeSpeed;
+    scroll-behavior: smooth;
     line-height: 1.5;
     padding-inline: min(4rem, 4vw);
-    padding-block: 2rem;
+    padding-block-start: 2rem;
 }
+
+h4{
+    text-transform: capitalize;
+    text-transform: capitalize;
+    font-size: clamp(1.3rem, 0.6vw,16px);
+    color: #4d5980;
+}
+
 
 
 .navbar {
@@ -70,9 +79,6 @@ nav>.nav {
     grid-template-columns: 1fr 1fr;
 }
 
-.hero-article__mob {
-    display: none;
-}
 
 .hero-article__desk p{ 
     width: 58%;
@@ -85,6 +91,10 @@ nav>.nav {
     margin-block: 2rem;
 }
 
+
+.skills h4{
+    margin-block: 2rem;
+}
 
 section:has([class="basic-skills"]) {
     margin-block: 5rem;
@@ -113,9 +123,9 @@ section:has([class="basic-skills"]) h4{
      -moz-box-shadow: -5px 13px 23px -3px rgba(0, 0, 0, 0.48);
 }
 
-/* .projects div{
-    max-height: 36rem;
-} */
+.projects *{
+   margin-block: 3rem;
+}
 
 .project-images{
     display: grid;
@@ -124,8 +134,17 @@ section:has([class="basic-skills"]) h4{
 
 .project-images img{
     max-width: 100%;
-    transition: all ease-in .2s;
+    transition: all ease-in-out .2s;
     border-radius: 2%;
+}
+
+.project-images a{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.project-images a label{
+    color: #000;
 }
 
 .project-images img:hover{
@@ -138,4 +157,47 @@ section:has([class="basic-skills"]) h4{
 .project1{
     width: 22rem;
     height: 30rem;
+}
+
+.about-me{
+    margin-block: 6rem;
+}
+
+.about-me *{
+    margin-block: 1rem;
+}
+
+.about-me button{
+    padding-inline: 20px;
+    padding-block: 12px;
+    border-radius: 15px;
+    font-weight: 600;
+    background-color: #FFF;
+    transition: all ease-in-out .3s;
+}
+
+.about-me button:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.socials{
+    display: flex;
+    gap: .6rem;
+}
+
+.social-icons{
+    width: 2rem;
+}
+
+.contact{
+    padding-block: 6rem;
+    padding-inline: 2rem;
+    border-radius: 3rem 3rem 0rem 0rem;
+    background: linear-gradient(180deg, rgba(7, 118, 85, 0.4) 47.1%, rgba(37, 70, 120, 0.4) 100%);
+}
+
+.contact h3{
+    font-weight: 500;
+    font-size: clamp(2rem, .5vw, 16px);
 }

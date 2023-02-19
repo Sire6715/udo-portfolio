@@ -1,0 +1,31 @@
+.hero-article__mob {
+    width: 61%;
+    margin-inline: auto;
+    line-height: 2rem;
+    text-align: justify;
+    object-fit: fill;
+}
+
+.hero-article__mob p {
+    margin-block-end: 2rem;
+}
+
+
+.resume{
+    margin-block: 6rem;
+}
+
+
+.resume-button {
+    padding-inline: 20px;
+    padding-block: 12px;
+    border-radius: 15px;
+    font-weight: 600;
+    background-color: #FFF;
+    transition: all ease-in-out .3s;
+}
+
+.resume-button:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
