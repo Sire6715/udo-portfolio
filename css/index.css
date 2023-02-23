@@ -62,6 +62,8 @@ nav>.nav {
     display: flex;
     gap: 2rem;
     font-size: clamp(1rem, .8vw, 14px);
+    cursor: pointer;
+    text-transform: capitalize;
 }
 
 .hero {
@@ -138,13 +140,14 @@ section:has([class="basic-skills"]) h4{
     border-radius: 2%;
 }
 
-.project-images a{
+a{
     text-decoration: none;
     font-size: 1.2rem;
 }
 
-.project-images a label{
+a label, a{
     color: #000;
+    font-weight: 500;
 }
 
 .project-images img:hover{
