@@ -6,8 +6,22 @@
     object-fit: fill;
 }
 
+.hero-image{
+    max-width: 100%;
+    height: auto;
+    width: 55%;
+}
+
 .hero-article__mob p {
     margin-block-end: 2rem;
+}
+
+.hero-article__mob2 * {
+    margin-block: 1rem;
+}
+
+.hero-article__mob2{
+    text-align: start;
 }
 
 
@@ -17,12 +31,18 @@
 
 
 .resume-button {
-    padding-inline: 20px;
+    border: 1px solid rgb(77, 89, 128);
+    border-bottom: 5px solid #b3a8a8;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #4d5980;
+    padding-inline: 7px;
     padding-block: 12px;
-    border-radius: 15px;
+    border-radius: 10px;
     font-weight: 600;
     background-color: #FFF;
     transition: all ease-in-out .3s;
+  
 }
 
 .resume-button:hover {
