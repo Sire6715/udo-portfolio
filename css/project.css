@@ -1,0 +1,11 @@
+.case-study{
+    width: 100%;
+    margin-inline: auto;
+}
+
+section * {
+    width: 95%;
+    display: block;
+    margin-inline: auto;
+    margin-block: 3rem;
+}

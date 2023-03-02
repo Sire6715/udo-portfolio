@@ -20,7 +20,7 @@ dd {
     margin: 0;
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
 }
@@ -41,10 +41,10 @@ body {
     padding-block-start: 2rem;
 }
 
-h4{
+h4 {
     text-transform: capitalize;
     text-transform: capitalize;
-    font-size: clamp(1.3rem, 0.6vw,16px);
+    font-size: clamp(1.3rem, 0.6vw, 16px);
     color: #4d5980;
 }
 
@@ -60,7 +60,7 @@ nav>.nav {
 
 .navbar-nav {
     display: flex;
-    gap: 2rem;
+    gap: clamp(2vw, 2rem, 15px);
     font-size: clamp(1rem, .8vw, 14px);
     cursor: pointer;
     text-transform: capitalize;
@@ -71,8 +71,8 @@ nav>.nav {
 }
 
 .hero h1 {
-    font-size: clamp(2.5rem, 2.3vw, 23px);
-    letter-spacing: clamp(.7rem, 0.2vw, 20px);
+    font-size: clamp(2rem, 2.3vw, 24px);
+    letter-spacing: clamp(.1rem, 1.2vw, 41px);
     margin-block: 6rem;
 }
 
@@ -82,9 +82,9 @@ nav>.nav {
 }
 
 
-.hero-article__desk p{ 
+.hero-article__desk p {
     width: 58%;
-    font-size: clamp(18px, 3.2vw, 3.5rem);
+    font-size: clamp(23px, 3.2vw, 3.5rem);
     margin-block-start: 0;
     margin-top: 0 !important;
     margin-inline: auto;
@@ -94,7 +94,7 @@ nav>.nav {
 }
 
 
-.skills h4{
+.skills h4 {
     margin-block: 2rem;
 }
 
@@ -102,7 +102,7 @@ section:has([class="basic-skills"]) {
     margin-block: 5rem;
 }
 
-section:has([class="basic-skills"]) h4{
+section:has([class="basic-skills"]) h4 {
     width: 50%;
 }
 
@@ -122,55 +122,56 @@ section:has([class="basic-skills"]) h4{
     padding: 1rem;
     box-shadow: -5px 13px 23px -3px rgba(0, 0, 0, 0.48);
     -webkit-box-shadow: -5px 13px 23px -3px rgba(0, 0, 0, 0.48);
-     -moz-box-shadow: -5px 13px 23px -3px rgba(0, 0, 0, 0.48);
+    -moz-box-shadow: -5px 13px 23px -3px rgba(0, 0, 0, 0.48);
 }
 
-.projects *{
-   margin-block: 3rem;
+.projects * {
+    margin-block: 1rem;
 }
 
-.project-images{
+.project-images {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.project-images img{
+.project-images img {
     max-width: 100%;
     transition: all ease-in-out .2s;
     border-radius: 2%;
 }
 
-a{
+a {
     text-decoration: none;
     font-size: 1.2rem;
 }
 
-a label, a{
+a label,
+a {
     color: #000;
     font-weight: 500;
 }
 
-.project-images img:hover{
+.project-images img:hover {
     scale: 1.1;
     box-shadow: -5px 13px 23px -3px rgba(0, 0, 0, 0.48);
     -webkit-box-shadow: -5px 13px 23px -3px rgba(0, 0, 0, 0.48);
-     -moz-box-shadow: -5px 13px 23px -3px rgba(0, 0, 0, 0.48);
+    -moz-box-shadow: -5px 13px 23px -3px rgba(0, 0, 0, 0.48);
 }
 
-.project1{
+.project1 {
     width: 22rem;
     height: 30rem;
 }
 
-.about-me{
+.about-me {
     margin-block: 6rem;
 }
 
-.about-me *{
+.about-me * {
     margin-block: 1rem;
 }
 
-.about-me button{
+.about-me button {
     padding-inline: 20px;
     padding-block: 12px;
     border-radius: 15px;
@@ -179,28 +180,28 @@ a label, a{
     transition: all ease-in-out .3s;
 }
 
-.about-me button:hover{
+.about-me button:hover {
     scale: 1.1;
     cursor: pointer;
 }
 
-.socials{
+.socials {
     display: flex;
     gap: .6rem;
 }
 
-.social-icons{
+.social-icons {
     width: 2rem;
 }
 
-.contact{
+.contact {
     padding-block: 6rem;
     padding-inline: 2rem;
     border-radius: 3rem 3rem 0rem 0rem;
     background: linear-gradient(180deg, rgba(7, 118, 85, 0.4) 47.1%, rgba(37, 70, 120, 0.4) 100%);
 }
 
-.contact h3{
+.contact h3 {
     font-weight: 500;
-    font-size: clamp(2rem, .5vw, 16px);
+    font-size: clamp(5vw, 2rem, 16px);
 }
