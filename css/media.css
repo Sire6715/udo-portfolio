@@ -3,21 +3,34 @@
         display: grid;
         grid-template-columns: 1fr;
     }
+    
 
     .basic-skills {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .hero-article__desk p{
+    .hero-article__desk p {
         width: 95%;
+    }
+
+    .hero-article__mob {
+        padding-right: 0 !important;
+        padding-inline: 1rem;
+        grid-column: span 2;
+    }
+
+    .hero-image img {
+        max-width: 100%;
+        height: auto;
+        width: 97% !important;
     }
 
     .about-me {
         margin-block: 3rem;
     }
 
-    .contact{
+    .contact {
         display: flex;
         justify-content: center;
         flex-direction: column;

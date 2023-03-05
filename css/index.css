@@ -43,7 +43,6 @@ body {
 
 h4 {
     text-transform: capitalize;
-    text-transform: capitalize;
     font-size: clamp(1.3rem, 0.6vw, 16px);
     color: #4d5980;
 }
@@ -56,6 +55,15 @@ h4 {
 
 nav>.nav {
     margin-right: auto;
+}
+
+.nav-item:link {
+    color: #000 !important;
+}
+
+.nav-item:visited {
+    color:  #9c3131 !important;
+    text-decoration: underline;
 }
 
 .navbar-nav {
