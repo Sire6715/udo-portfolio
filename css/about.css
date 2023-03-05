@@ -42,7 +42,7 @@
 }
 
 
-.resume-button {
+.resume-button, .read-more {
     border: 1px solid rgb(77, 89, 128);
     border-bottom: 5px solid #b3a8a8;
     text-transform: capitalize;

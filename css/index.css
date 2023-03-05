@@ -166,7 +166,7 @@ a {
 a label,
 a {
     text-transform: capitalize;
-    font-size: clamp(1.3rem, 0.6vw, 16px);
+    font-size: clamp(1rem, 0.6vw, 16px);
     color: #4d5980;
 }
 
