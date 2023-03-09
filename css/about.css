@@ -31,9 +31,10 @@
     margin-block: 1rem;
 }
 
-.hero-article__mob2{
+.hero-article__mob2 {
     text-align: start;
     grid-column: span 2;
+    line-height: 2.5rem;
 }
 
 
@@ -43,7 +44,7 @@
 
 
 .resume-button, .read-more {
-    border: 1px solid rgb(77, 89, 128);
+    border: 3px solid rgb(77, 89, 128);
     border-bottom: 5px solid #b3a8a8;
     text-transform: capitalize;
     font-size: 14px;

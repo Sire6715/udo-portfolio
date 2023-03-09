@@ -32,6 +32,8 @@ ol[role="list"] {
     padding: 0;
 }
 
+
+
 body {
     font-family: 'Josefin Sans', sans-serif;
     text-rendering: optimizeSpeed;
@@ -57,9 +59,14 @@ nav>.nav {
     margin-right: auto;
 }
 
-.nav-item:link {
+.navlink {
     color: #000 !important;
 }
+
+.navlink:is(link, :active, :visited).active{
+    color: #9c3131;
+    background-color: #000;
+} 
 
 .nav-item:visited {
     color:  #9c3131 !important;
@@ -148,9 +155,18 @@ section:has([class="basic-skills"]) h4 {
 .project-images {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: start;
 }
 
-.project-images img {
+.project1 {
+    max-width: 100%;
+    width: 51%;
+    height: 62%;
+    transition: all ease-in-out .2s;
+    border-radius: 2%;
+}
+
+.project2 {
     max-width: 100%;
     width: 51%;
     height: 62%;
@@ -208,6 +224,8 @@ a {
 .social-icons {
     width: 2rem;
 }
+
+
 
 .contact {
     padding-block: 6rem;
