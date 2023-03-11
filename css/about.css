@@ -44,11 +44,11 @@
 
 
 .resume-button, .read-more {
-    border: 3px solid rgb(77, 89, 128);
+    border: 3px solid #6dabdc;
     border-bottom: 5px solid #b3a8a8;
     text-transform: capitalize;
     font-size: 14px;
-    color: #4d5980;
+    color: #6dabdc;
     padding-inline: 7px;
     padding-block: 12px;
     border-radius: 10px;
