@@ -32,11 +32,6 @@ ol[role="list"] {
     padding: 0;
 }
 
-body * {
-    border: red 2px solid;
-}
-
-
 
 body {
     font-family: 'Josefin Sans', sans-serif;
@@ -50,7 +45,7 @@ body {
 h4 {
     text-transform: capitalize;
     font-size: clamp(1.3rem, 0.6vw, 16px);
-    color: #6dabdc;
+    color: #9bc8bb;
 }
 
 
@@ -68,8 +63,8 @@ nav>.nav {
 }
 
 .navlink:is(link, :active, :visited).active{
-    color: #6dabdc !important;
-    background-color: #6dabdc !important;
+    color: #9bc8bb !important;
+    background-color: #9bc8bb !important;
 } 
 
 .nav-item:visited {
@@ -172,7 +167,7 @@ section:has([class="basic-skills"]) h4 {
 
 .project2 {
     max-width: 100%;
-    width: 53.2%;
+    width: 53%;
     height: 62%;
     transition: all ease-in-out .2s;
     border-radius: 2%;
