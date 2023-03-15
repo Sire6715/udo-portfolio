@@ -32,6 +32,10 @@ ol[role="list"] {
     padding: 0;
 }
 
+body * {
+    border: red 2px solid;
+}
+
 
 
 body {
@@ -88,7 +92,7 @@ nav>.nav {
 .hero h1 {
     font-size: clamp(2rem, 2.3vw, 24px);
     letter-spacing: clamp(.1rem, 1.2vw, 41px);
-    margin-block: 6rem;
+    margin-block: 2rem;
 }
 
 .hero-grid {
@@ -168,7 +172,7 @@ section:has([class="basic-skills"]) h4 {
 
 .project2 {
     max-width: 100%;
-    width: 51%;
+    width: 53.2%;
     height: 62%;
     transition: all ease-in-out .2s;
     border-radius: 2%;
@@ -215,6 +219,8 @@ a {
     scale: 1.1;
     cursor: pointer;
 }
+
+
 
 .socials {
     display: flex;
